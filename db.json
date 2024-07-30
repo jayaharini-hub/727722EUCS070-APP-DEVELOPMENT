@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "7f5b",
+      "email": "727722eucs070@skcet.ac.in",
+      "password": "1010101010"
+    },
+    {
+      "id": "5bd5",
+      "email": "harini1007@gmail.com",
+      "password": "10072005"
+    },
+    {
+      "id": "6a40",
+      "email": "arul@gmail.com",
+      "password": "123456789"
+    },
+    {
+      "id": "ef53",
+      "email": "madhuna@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "0d49",
+      "email": "harini@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "9431",
+      "email": "harini1@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "4058",
+      "email": "lakshmi@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "5902",
+      "email": "arul1@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "cf22",
+      "email": "suvee@gmail.com",
+      "password": "1"
+    },
+    {
+      "id": "8220",
+      "email": "dhisha@gmail.com",
+      "password": "12"
+    }
+  ]
+}
