@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 60px; /* Account for fixed header */
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

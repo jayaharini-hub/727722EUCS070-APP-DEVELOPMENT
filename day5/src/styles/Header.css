@@ -1,0 +1,42 @@
+.header {
+  background-color: #3f4041;
+  border-bottom: 1px solid #f0e6e6;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fcf9f9;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background: none;
+  color: #fcf9f9;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
