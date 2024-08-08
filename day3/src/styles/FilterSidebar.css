@@ -1,0 +1,26 @@
+.filter-sidebar {
+    width: 250px;
+    height: 700px;
+    background-color:#3f4041;
+    padding: 40px;
+    border-right: 1px solid #eaeaea;
+    color: #eaeaea;
+  }
+  
+  .filter-group {
+    margin-bottom: 10px;
+  }
+  
+  .filter-group label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .filter-group input,
+  .filter-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+  }
+  
