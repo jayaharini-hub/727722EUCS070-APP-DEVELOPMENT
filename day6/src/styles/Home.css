@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 60px; 
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+
+.property-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

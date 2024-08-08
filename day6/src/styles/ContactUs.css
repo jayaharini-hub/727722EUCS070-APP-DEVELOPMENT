@@ -1,0 +1,51 @@
+
+.background-image1 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .contact-info1 {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-method1 {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .contact-method1 .icon1 {
+    margin-right: 8px;
+  }
+  
+  .contact-method1 h6 {
+    margin: 10px 0;
+  }
+  
+  .icon-buttons1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon-buttons a {
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+  }
+  

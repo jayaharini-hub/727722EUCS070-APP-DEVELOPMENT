@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": "fad2",
+      "firstName": "Jayaharini",
+      "lastName": "R",
+      "email": "727722eucs070@skcet.ac.in",
+      "feedback": "hi",
+      "mobilenumber": "439559"
+    },
+    {
+      "id": "c629",
+      "firstName": "Jayaharini",
+      "lastName": "R",
+      "email": "727722eucs094@skcet.ac.in",
+      "feedback": "Hello",
+      "mobilenumber": "06380218552"
+    },
+    {
+      "id": "6285",
+      "firstName": "vinayagar",
+      "lastName": "thunai",
+      "email": "727722eucs071@skcet.ac.in",
+      "feedback": "hi",
+      "mobilenumber": "06380218552"
+    }
+  ]
+}

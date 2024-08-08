@@ -1,0 +1,134 @@
+.profile-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+.logout-button {
+  background-color: #e74c3c;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  margin: 0;
+  color: #3f4041;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem; /* Updated to match previous styling */
+}
+
+.profile-icon {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  color: #3f4041;
+}
+
+.back-button, .logout-button {
+  background-color: #3f4041;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.back-button:hover, .logout-button:hover {
+  background-color: #f39c12;
+  transform: scale(1.05);
+}
+
+.logout-button {
+  background-color: #c0392b;
+}
+
+.logout-button:hover {
+  background-color: #e74c3c;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #fafafa;
+  transition: transform 0.3s;
+}
+
+.profile-detail:hover {
+  transform: scale(1.02);
+}
+
+.detail-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #3f4041;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #3f4041;
+  margin-right: 10px;
+}
+
+.detail-value {
+  color: #555555;
+}
+
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 20px;
+  }
+
+  .profile-detail {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .detail-value {
+    margin-top: 5px;
+  }
+
+  .profile-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-icon {
+    font-size: 2rem;
+  }
+}
